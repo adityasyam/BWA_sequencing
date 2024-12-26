@@ -45,57 +45,57 @@ def plot_execution_time(csv_path_backtracking, csv_path_mem, csv_path_sw, save_p
 # REMOVE COMMENTS ON THE DESIRED BASE PAIR LENGTH TO RUN THE CORRESPONDING PLOTTING
 
 # plot_execution_time(
-#     '../alignment_result_50.csv/Backtrack_results.csv',
-#     '../alignment_result_50_ms.csv/MEM_results.csv',
-#     '../alignment_result_50_ms.csv/SW_results.csv',
+#     '../results/alignment_result_50.csv/Backtrack_results.csv',
+#     '../results/alignment_result_50_ms.csv/MEM_results.csv',
+#     '../results/alignment_result_50_ms.csv/SW_results.csv',
 #     'graphs/50bp_results.png',
 #     'Execution Time for BWA Variants for 50bp'
 # )
 
 # plot_execution_time(
-#     '../alignment_result_200.csv/Backtrack_results.csv',
-#     '../alignment_result_200_ms.csv/MEM_results.csv',
-#     '../alignment_result_200_ms.csv/SW_results.csv',
+#     '../results/alignment_result_200.csv/Backtrack_results.csv',
+#     '../results/alignment_result_200_ms.csv/MEM_results.csv',
+#     '../results/alignment_result_200_ms.csv/SW_results.csv',
 #     'graphs/200bp_results.png',
 #     'Execution Time for BWA Variants for 200bp'
 # )
 
 # plot_execution_time(
-#     '../alignment_result_1k.csv/Backtrack_results.csv',
-#     '../alignment_result_1k_ms.csv/MEM_results.csv',
-#     '../alignment_result_1k_ms.csv/SW_results.csv',
+#     '../results/alignment_result_1k.csv/Backtrack_results.csv',
+#     '../results/alignment_result_1k_ms.csv/MEM_results.csv',
+#     '../results/alignment_result_1k_ms.csv/SW_results.csv',
 #     'graphs/1000bp_results.png',
 #     'Execution Time for BWA Variants for 1000bp'
 # )
 
 # plot_execution_time(
-#     '../alignment_result_2k.csv/Backtrack_results.csv',
-#     '../alignment_result_2k_ms.csv/MEM_results.csv',
-#     '../alignment_result_2k_ms.csv/SW_results.csv',
+#     '../results/alignment_result_2k.csv/Backtrack_results.csv',
+#     '../results/alignment_result_2k_ms.csv/MEM_results.csv',
+#     '../results/alignment_result_2k_ms.csv/SW_results.csv',
 #     'graphs/2000bp_results.png',
 #     'Execution Time for BWA Variants for 2000bp'
 # )
 
 # plot_execution_time(
-#     '../alignment_result_5k.csv/Backtrack_results.csv',
-#     '../alignment_result_5k_ms.csv/MEM_results.csv',
-#     '../alignment_result_5k_ms.csv/SW_results.csv',
+#     '../results/alignment_result_5k.csv/Backtrack_results.csv',
+#     '../results/alignment_result_5k_ms.csv/MEM_results.csv',
+#     '../results/alignment_result_5k_ms.csv/SW_results.csv',
 #     'graphs/5000bp_results.png',
 #     'Execution Time for BWA Variants for 5000bp'
 # )
 
 # plot_execution_time(
-#     '../alignment_result_9k.csv/Backtrack_results.csv',
-#     '../alignment_result_9k_ms.csv/MEM_results.csv',
-#     '../alignment_result_9k_ms.csv/SW_results.csv',
+#     '../results/alignment_result_9k.csv/Backtrack_results.csv',
+#     '../results/alignment_result_9k_ms.csv/MEM_results.csv',
+#     '../results/alignment_result_9k_ms.csv/SW_results.csv',
 #     'graphs/9000bp_results.png',
 #     'Execution Time for BWA Variants for 9000bp'
 # )
 
 # plot_execution_time(
-#     '../alignment_result_9749.csv/Backtrack_results.csv',
-#     '../alignment_result_9749_ms.csv/MEM_results.csv',
-#     '../alignment_result_9749_ms.csv/SW_results.csv',
+#     '../results/alignment_result_9749.csv/Backtrack_results.csv',
+#     '../results/alignment_result_9749_ms.csv/MEM_results.csv',
+#     '../results/alignment_result_9749_ms.csv/SW_results.csv',
 #     'graphs/9749bp_results.png',
 #     'Execution Time for BWA Variants for 9749bp'
 # )

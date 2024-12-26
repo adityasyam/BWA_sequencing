@@ -90,39 +90,39 @@ def add_interpretation(results_df):
 
 def main():
 
-    # backtrack_path='../alignment_result_50.csv/Backtrack_results.csv'
-    # mem_path='../alignment_result_50_ms.csv/MEM_results.csv'
-    # sw_path='../alignment_result_50_ms.csv/SW_results.csv'
+    # backtrack_path='../results/alignment_result_50.csv/Backtrack_results.csv'
+    # mem_path='../results/alignment_result_50_ms.csv/MEM_results.csv'
+    # sw_path='../results/alignment_result_50_ms.csv/SW_results.csv'
     # output_path='test_outputs/50bp_tests.csv'
 
-    # backtrack_path='../alignment_result_200.csv/Backtrack_results.csv'
-    # mem_path='../alignment_result_200_ms.csv/MEM_results.csv'
-    # sw_path='../alignment_result_200_ms.csv/SW_results.csv'
+    # backtrack_path='../results/alignment_result_200.csv/Backtrack_results.csv'
+    # mem_path='../results/alignment_result_200_ms.csv/MEM_results.csv'
+    # sw_path='../results/alignment_result_200_ms.csv/SW_results.csv'
     # output_path='test_outputs/200bp_tests.csv'
 
-    # backtrack_path='../alignment_result_1k.csv/Backtrack_results.csv'
-    # mem_path='../alignment_result_1k_ms.csv/MEM_results.csv'
-    # sw_path='../alignment_result_1k_ms.csv/SW_results.csv'
+    # backtrack_path='../results/alignment_result_1k.csv/Backtrack_results.csv'
+    # mem_path='../results/alignment_result_1k_ms.csv/MEM_results.csv'
+    # sw_path='../results/alignment_result_1k_ms.csv/SW_results.csv'
     # output_path='test_outputs/1000bp_tests.csv'
 
-    # backtrack_path='../alignment_result_2k.csv/Backtrack_results.csv'
-    # mem_path='../alignment_result_2k_ms.csv/MEM_results.csv'
-    # sw_path='../alignment_result_2k_ms.csv/SW_results.csv'
+    # backtrack_path='../results/alignment_result_2k.csv/Backtrack_results.csv'
+    # mem_path='../results/alignment_result_2k_ms.csv/MEM_results.csv'
+    # sw_path='../results/alignment_result_2k_ms.csv/SW_results.csv'
     # output_path='test_outputs/2000bp_tests.csv'
 
-    # backtrack_path='../alignment_result_5k.csv/Backtrack_results.csv'
-    # mem_path='../alignment_result_5k_ms.csv/MEM_results.csv'
-    # sw_path='../alignment_result_5k_ms.csv/SW_results.csv'
+    # backtrack_path='../results/alignment_result_5k.csv/Backtrack_results.csv'
+    # mem_path='../results/alignment_result_5k_ms.csv/MEM_results.csv'
+    # sw_path='../results/alignment_result_5k_ms.csv/SW_results.csv'
     # output_path='test_outputs/5000bp_tests.csv'
 
-    # backtrack_path='../alignment_result_9k.csv/Backtrack_results.csv'
-    # mem_path='../alignment_result_9k_ms.csv/MEM_results.csv'
-    # sw_path='../alignment_result_9k_ms.csv/SW_results.csv'
+    # backtrack_path='../results/alignment_result_9k.csv/Backtrack_results.csv'
+    # mem_path='../results/alignment_result_9k_ms.csv/MEM_results.csv'
+    # sw_path='../results/alignment_result_9k_ms.csv/SW_results.csv'
     # output_path='test_outputs/9000bp_tests.csv'
 
-    # backtrack_path='../alignment_result_9749.csv/Backtrack_results.csv'
-    # mem_path='../alignment_result_9749_ms.csv/MEM_results.csv'
-    # sw_path='../alignment_result_9749_ms.csv/SW_results.csv'
+    # backtrack_path='../results/alignment_result_9749.csv/Backtrack_results.csv'
+    # mem_path='../results/alignment_result_9749_ms.csv/MEM_results.csv'
+    # sw_path='../results/alignment_result_9749_ms.csv/SW_results.csv'
     # output_path='test_outputs/9749bp_tests.csv'
 
     backtrack_df, mem_df, sw_df = load_and_prepare_data(
