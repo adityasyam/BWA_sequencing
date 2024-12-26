@@ -1,4 +1,7 @@
-This is a code repository to run and benchmark different versions of BWA for DNA sequencing, particularly on HIV-1 nucleotide sequences.
+This is a code repository to run and benchmark different versions of BWA for DNA sequencing, particularly on HIV-1 nucleotide sequences. The three versions included are:
+1) BWA-backtrack (base version)
+2) BWA-SW
+3) BWA-MEM
 
 Prerequisites:
 Create a virtual environment and install the requirements listed in the `requirements.txt` file using
@@ -91,6 +94,14 @@ The resultant CSV files are saved in the adjacent `tests/test_outputs` directory
 5) `test_outputs/5000bp_tests.csv` for statistical analysis for 5000bp
 6) `test_outputs/9000bp_tests.csv` for statistical analysis for 9000bp
 7) `test_outputs/9749bp_tests.csv` for statistical analysis for 9749bp
+
+**Results**:
+Our benchmarking analysis seems to indicate that the BWA-SW algorithm would be ideal for HIV-1 genome sequencing. Keeping in mind the performance considerations for all three extensions, it is important to note that though BWA-SW and BWA-MEM shared potential accuracy constraints caused by the seeding process, BWA-SW had a perfect accuracy score whereas BWA-MEM had a near-perfect score. Thus, even though BWA-MEM's accuracy might have been affected by re-seeding, BWA-SW's perfect accuracy despite parallel seeding concerns gives a higher edge to its candidacy for the ideal BWA variant.
+BWA-Backtracking's performance unquestionably fared significantly worse than both BWA-MEM and BWA-SW.
+
+This conclusion is further supported by the fact that BWA-SW was the ideal aligner for 200bp, 1000bp, 5000bp, 9000bp, and 9749bp sequence lengths. The 50bp case was essentially a coin toss between BWA-SW and BWA-MEM, with either being the potentially ideal variant. Finally, the 2000bp case was a trade-off between BWA-MEM and BWA-SW, with MEM being ideal for efficiency and SW being ideal for accuracy.
+
+As such, we can conclude that BWA-SW would overall indeed be the ideal algorithm. For accuracy considerations, it performs better than both the other algorithms on all sequences. For efficiency considerations, it performs better than or at least as good as the other two variants for all sequence lengths except the 2000bp sequence.
 
 **References**:
 1) Li H. and Durbin R. (2009) Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics, 25, 1754-1760.
