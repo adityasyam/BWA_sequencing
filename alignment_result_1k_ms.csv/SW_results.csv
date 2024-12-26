@@ -1,0 +1,26 @@
+Sequence_Name,Country,Sequence_Length,Execution_Time (sec),Correctness (%)
+kenya-4,Kenya,1000,0.004,100.0
+kenya-2,Kenya,1000,0.004,100.0
+kenya-5,Kenya,1000,0.004,100.0
+kenya-1,Kenya,1000,0.004,100.0
+kenya-3,Kenya,1000,0.004,100.0
+brazil-4,Brazil,1000,0.003,100.0
+brazil-2,Brazil,1000,0.003,100.0
+brazil-5,Brazil,1000,0.004,100.0
+brazil-1,Brazil,1000,0.003,100.0
+brazil-3,Brazil,1000,0.003,100.0
+germany-1,Germany,1000,0.004,100.0
+germany-3,Germany,1000,0.003,100.0
+germany-5,Germany,1000,0.003,100.0
+germany-2,Germany,1000,0.003,100.0
+germany-4,Germany,1000,0.003,100.0
+india-4,India,1000,0.003,100.0
+india-2,India,1000,0.004,100.0
+india-5,India,1000,0.003,100.0
+india-1,India,1000,0.003,100.0
+india-3,India,1000,0.003,100.0
+vietnam-4,Vietnam,1000,0.003,100.0
+vietnam-2,Vietnam,1000,0.004,100.0
+vietnam-5,Vietnam,1000,0.003,100.0
+vietnam-3,Vietnam,1000,0.003,100.0
+vietnam-1,Vietnam,1000,0.003,100.0

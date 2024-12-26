@@ -1,0 +1,7 @@
+Sequence_Name,Country,Sequence_Length,Execution_Time (sec),Correctness (%)
+poland-1,Poland,50,0.109,100.0
+russia-2,Russia,50,0.061,100.0
+russia-4,Russia,50,0.06,100.0
+russia-1,Russia,50,0.059,100.0
+russia-3,Russia,50,0.062,100.0
+congo-1,Congo,50,0.076,100.0

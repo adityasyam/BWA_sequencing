@@ -1,0 +1,8 @@
+Sequence_Name,Country,Sequence_Length,Execution_Time (sec),Correctness (%)
+malawi-2,Malawi,9000,0.077,100.0
+malawi-1,Malawi,9000,0.063,100.0
+switzerland-1,Switzerland,9000,0.063,100.0
+switzerland-3,Switzerland,9000,0.067,100.0
+switzerland-2,Switzerland,9000,0.072,100.0
+peru-1,Peru,9000,0.075,100.0
+peru-2,Peru,9000,0.065,99.9888888888889

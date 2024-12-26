@@ -1,0 +1,7 @@
+Sequence_Name,Country,Sequence_Length,Execution_Time (sec),Correctness (%)
+botswana-1,Botswana,2000,0.005,100.0
+south_korea-1,South_korea,2000,0.005,100.0
+belgium-1,Belgium,2000,0.005,100.0
+china-1,China,2000,0.005,100.0
+china-3,China,2000,0.005,99.55000000000001
+china-2,China,2000,0.005,100.0

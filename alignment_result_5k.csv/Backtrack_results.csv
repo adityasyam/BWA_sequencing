@@ -1,0 +1,4 @@
+Sequence_Name,Country,Sequence_Length,Execution_Time (sec),Correctness (%)
+south_africa-1,South_africa,5000,0.08,100.0
+thailand-2,Thailand,5000,0.075,100.0
+thailand-1,Thailand,5000,0.072,100.0

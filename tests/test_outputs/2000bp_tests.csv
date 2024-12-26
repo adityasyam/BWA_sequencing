@@ -1,0 +1,7 @@
+Metric,Algorithm_1,Algorithm_2,Mean_1,Mean_2,P_Value,Effect_Size,Significant,Interpretation
+Time,Backtrack,MEM,0.062,0.005,0.0027,11.8853,True,"MEM>Backtrack, large"
+Time,Backtrack,SW,0.062,0.0067,0.0042,11.3875,True,"SW>Backtrack, large"
+Time,MEM,SW,0.005,0.0067,0.0023,-2.132,True,"MEM>SW, large"
+Correctness,Backtrack,MEM,99.925,99.925,1.0,0.0,False,N/A
+Correctness,Backtrack,SW,99.925,100.0,0.4047,-0.6325,False,N/A
+Correctness,MEM,SW,99.925,100.0,0.4047,-0.6325,False,N/A

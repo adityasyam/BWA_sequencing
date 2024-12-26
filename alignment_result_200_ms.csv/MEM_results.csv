@@ -1,0 +1,21 @@
+Sequence_Name,Country,Sequence_Length,Execution_Time (sec),Correctness (%)
+usa-2,Usa,200,0.001,100.0
+usa-4,Usa,200,0.001,100.0
+usa-3,Usa,200,0.001,100.0
+usa-1,Usa,200,0.001,100.0
+usa-5,Usa,200,0.001,100.0
+japan-3,Japan,200,0.001,100.0
+japan-1,Japan,200,0.001,100.0
+japan-5,Japan,200,0.001,100.0
+japan-2,Japan,200,0.001,100.0
+japan-4,Japan,200,0.001,100.0
+senegal-2,Senegal,200,0.001,99.0
+senegal-4,Senegal,200,0.001,100.0
+senegal-1,Senegal,200,0.001,99.5
+senegal-3,Senegal,200,0.001,99.5
+senegal-5,Senegal,200,0.001,100.0
+italy-3,Italy,200,0.001,100.0
+italy-1,Italy,200,0.001,100.0
+italy-5,Italy,200,0.001,100.0
+italy-2,Italy,200,0.001,100.0
+italy-4,Italy,200,0.001,100.0
