@@ -7,10 +7,6 @@ Create a virtual environment and install the requirements listed in the `require
 Then, in the same virtual environment, run
 `brew install bwa`
 
-Assumed Directory Structure Sample for Execution:
-
-<img width="289" alt="Screenshot 2024-12-11 at 6 46 07 PM" src="https://github.coecis.cornell.edu/as2839/bwa_sequencing/assets/13458/f6dc28a3-86ab-4f2f-b157-4dd92531593b">
-
 The current genome sequences used are as follows:
 The reference sequence is saved in `reference/reference.fasta`
 The current reference being used is the complete HXB2 genome sequence from LANL. 
